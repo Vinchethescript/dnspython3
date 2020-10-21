@@ -1,5 +1,6 @@
 LICENSE
 MANIFEST.in
+setup.cfg
 setup.py
 dnspython3.egg-info/PKG-INFO
 dnspython3.egg-info/SOURCES.txt

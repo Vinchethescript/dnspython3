@@ -18,18 +18,16 @@
 from setuptools import setup
 import sys
 
-version = '1.15.0'
 print("="*78+"""
 \033[0;31mdnspython3 is now superseded by the regular dnspython kit, which
 now supports Python 2 and Python 3.  Installing dnspython as a dependency.\033[0;0m
 """+"="*78, file=sys.stdout)
 
 setup(name='dnspython3',
-      version=version,
       description='DNS toolkit',
       url='http://www.dnspython.org',
       license='BSD-like',
       author='Bob Halley',
       author_email='halley@dnspython.org',
-      install_requires=['dnspython=='+version],
+      install_requires=['dnspython'],
       )
